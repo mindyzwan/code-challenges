@@ -1,0 +1,8 @@
+<html>
+  <body>
+    <a href="/?<%= @sort_order[1] %>=true"><%= @sort_order[0] %></a><br>
+    <% @file_names.each do |file| %>
+    <a href="<%= file %>"><%= file %></a><br>
+    <% end %>
+  </body>
+</html>
